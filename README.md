@@ -1,19 +1,19 @@
-# react-tree-view
+# react-icon-tree
 
-React tree view displays hierarchical data in a traditional tree structure.
+React icon tree view displays hierarchical data in a traditional tree structure.
 
 ## Usability
 
 react-tree-view requires react,react-dom as peer dependency. All versions should be supported, but make sure you are using matching versions of the two packages.
 
 ```javascript
-import { TreeView } from "react-tree-view";
+import { TreeView } from "react-icon-tree";
 ```
 
 and include css files with styles (you may include this in different way)
 
 ```javascript
-require("../node_modules/react-tree-view/style.css");
+require("../node_modules/react-icon-tree/dist/style.css");
 ```
 
 ## props/options
