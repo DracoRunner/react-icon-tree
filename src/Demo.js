@@ -1,6 +1,6 @@
 import React from "react";
+import { FaFileAlt, FaFolder } from "react-icons/fa";
 import { TreeView } from "./Component/TreeView";
-import { FaAngleDown, FaAngleRight, FaFolder, FaFileAlt } from "react-icons/fa";
 
 export class Demo extends React.Component {
     handleSelect = data => {

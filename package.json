@@ -1,10 +1,8 @@
 {
     "name": "react-icon-tree",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "private": false,
     "author": "mahendra baghel",
-    "license": "MIT",
-    "main": "./lib/Components/TreeView.js",
     "dependencies": {
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
@@ -23,12 +21,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "prepublishOnly": "babel ./src --out-dir ./lib -s inline --copy-files"
+        "eject": "react-scripts eject"
     },
-    "files": [
-        "lib/*"
-    ],
     "browserslist": {
         "production": [
             ">0.2%",
@@ -41,22 +35,7 @@
             "last 1 safari version"
         ]
     },
-    "peerDependencies": {
-        "react": "*",
-        "react-dom": "*"
-    },
-    "bugs": {
-        "url": "https://github.com/MahiBaghel/react-icon-tree"
-    },
-    "homepage": "https://github.com/MahiBaghel/react-icon-tree",
     "eslintConfig": {
         "extends": "react-app"
-    },
-    "keywords": [
-        "react, tree, treeview, react-component"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MahiBaghel/react-icon-tree.git"
     }
 }
