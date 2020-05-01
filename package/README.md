@@ -4,7 +4,7 @@ React icon tree view displays hierarchical data in a traditional tree structure.
 
 ## Usability
 
-react-tree-view requires react,react-dom as peer dependency. All versions should be supported, but make sure you are using matching versions of the two packages.
+react-icon-tree requires react,react-dom as peer dependency. All versions should be supported, but make sure you are using matching versions of the two packages.
 
 ```javascript
 import { TreeView } from "react-icon-tree";
