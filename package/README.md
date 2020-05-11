@@ -83,7 +83,7 @@ getSelectedNode = (data) => {
 <TreeView treeData={treeData} getSelectedNode={this.getSelectedNode} />;
 ```
 
-### custom icons
+### Expand onload
 
 To expand on load add expand key on data
 
