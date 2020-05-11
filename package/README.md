@@ -18,27 +18,27 @@ getSelectedNode:fucntion
 
 ```javascript
 const treeData = [
-    {
-        name: "root",
-        children: [
-            {
-                name: "parent",
-                children: [{ name: "child1" }, { name: "child2" }]
-            },
-            {
-                name: "parent",
-                children: [
-                    {
-                        name: "nested parent",
-                        children: [{ name: "nested child 1" }, { name: "nested child 2" }]
-                    }
-                ]
-            }
-        ]
-    }
+   {
+      name: "root",
+      children: [
+         {
+            name: "parent",
+            children: [{ name: "child1" }, { name: "child2" }],
+         },
+         {
+            name: "parent",
+            children: [
+               {
+                  name: "nested parent",
+                  children: [{ name: "nested child 1" }, { name: "nested child 2" }],
+               },
+            ],
+         },
+      ],
+   },
 ];
-getSelectedNode = data => {
-    console.log(data);
+getSelectedNode = (data) => {
+   console.log(data);
 };
 
 <TreeView treeData={treeData} getSelectedNode={this.getSelectedNode} />;
@@ -50,14 +50,54 @@ To customize icon add icon key
 
 ```javascript
 const treeData = [
+   {
+      name: "root",
+      icon: <FaFolder />,
+      children: [
+         {
+            name: "parent",
+            children: [
+               { name: "child1", icon: <FaFileAlt /> },
+               { name: "child2", icon: <FaFileAlt /> },
+            ],
+         },
+         {
+            name: "parent",
+            children: [
+               {
+                  name: "nested parent",
+                  children: [
+                     { name: "nested child 1", icon: <FaFileAlt /> },
+                     { name: "nested child 2", icon: <FaFileAlt /> },
+                  ],
+               },
+            ],
+         },
+      ],
+   },
+];
+getSelectedNode = (data) => {
+   console.log(data);
+};
+
+<TreeView treeData={treeData} getSelectedNode={this.getSelectedNode} />;
+```
+
+### custom icons
+
+To expand on load add expand key on data
+
+```javascript
+const treeData = [
     {
         name: "root",
-        icon: <FaFolder />,
+        expand:true
         children: [
             {
                 name: "parent",
+                expand:true
                 children: [
-                    { name: "child1", icon: <FaFileAlt /> },
+                    { name: "child1"},
                     { name: "child2", icon: <FaFileAlt /> }
                 ]
             },

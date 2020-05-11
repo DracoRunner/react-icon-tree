@@ -1,44 +1,44 @@
 {
-    "name": "react-icon-tree",
-    "version": "1.0.0",
-    "description": "React icon tree view displays hierarchical data in a traditional tree structure",
-    "main": "./build/index.js",
-    "scripts": {
-        "build": "webpack",
-        "prepublishOnly": "npm run build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MahiBaghel/react-icon-tree.git"
-    },
-    "keywords": [
-        "react",
-        "tree",
-        "treeview"
-    ],
-    "author": "mahendra",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/MahiBaghel/react-icon-tree/issues"
-    },
-    "homepage": "https://github.com/MahiBaghel/react-icon-tree#readme",
-    "dependencies": {
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-icons": "^3.10.0",
-        "react-scripts": "^3.4.1"
-    },
-    "devDependencies": {
-        "@babel/cli": "7.8.4",
-        "@babel/core": "7.9.0",
-        "@babel/plugin-proposal-class-properties": "7.8.3",
-        "@babel/plugin-transform-runtime": "7.9.0",
-        "@babel/preset-env": "^7.9.5",
-        "@babel/preset-react": "7.9.4",
-        "css-loader": "^3.3.0",
-        "mini-css-extract-plugin": "^0.9.0",
-        "style-loader": "^1.0.1",
-        "webpack": "^4.41.2",
-        "webpack-cli": "^3.3.10"
-    }
+   "name": "react-icon-tree",
+   "version": "1.0.1",
+   "description": "React icon tree view displays hierarchical data in a traditional tree structure",
+   "main": "./build/index.js",
+   "scripts": {
+      "build": "webpack",
+      "prepublishOnly": "npm run build"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MahiBaghel/react-icon-tree.git"
+   },
+   "keywords": [
+      "react",
+      "tree",
+      "treeview"
+   ],
+   "author": "mahendra",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/MahiBaghel/react-icon-tree/issues"
+   },
+   "homepage": "https://github.com/MahiBaghel/react-icon-tree#readme",
+   "dependencies": {
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-icons": "^3.10.0",
+      "react-scripts": "^3.4.1"
+   },
+   "devDependencies": {
+      "@babel/cli": "7.8.4",
+      "@babel/core": "7.9.0",
+      "@babel/plugin-proposal-class-properties": "7.8.3",
+      "@babel/plugin-transform-runtime": "7.9.0",
+      "@babel/preset-env": "^7.9.5",
+      "@babel/preset-react": "7.9.4",
+      "css-loader": "^3.3.0",
+      "mini-css-extract-plugin": "^0.9.0",
+      "style-loader": "^1.0.1",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10"
+   }
 }
